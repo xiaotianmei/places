@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="demo.css">
+	<link rel="stylesheet" href="iconfont.css">
+</head>
+<body>
+	<!-- <div id="demo">
+		<table>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Age</th>
+					<th>Sex</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr v-for="person in people">
+					<td>{{person.name}}</td>
+					<td>{{person.age}}</td>
+					<td>{{person.sex}}</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div class="section">
+		<h1>选择文字</h1>
+	</div> -->
+	
+	<div class="main">
+		<header></header>
+		<section></section>
+		<footer></footer>
+	</div>
+
+
+
+	<i class="iconfont">&#xe651;</i>
+	<i class="iconfont">&#xe60a;</i>
+
+<script src="vue.js"></script>
+<script>
+var vm = new Vue({
+	el:'#demo',
+	data:{
+		people:[{
+			name:'jack',
+			age:'30',
+			sex:'F'
+		},
+		{
+			name:'Bill',
+			age:'26',
+			sex:'M'
+		},
+		{
+			name:'tracy',
+			age:'22',
+			sex:'F'
+		},
+		{
+			name:'Chris',
+			age:'36',
+			sex:'M'
+		}
+
+		]
+	}
+
+})
+
+
+
+</script>
+</html>
